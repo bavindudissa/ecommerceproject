@@ -1,0 +1,272 @@
+/*ExS Fashion Styles*/
+.singular .comment-content a:not([class]),
+.singular #layout article .entry-content a:not([class]){
+	text-decoration: underline;
+}
+
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea,
+select{
+	min-height: 50px;
+}
+
+.btns-rounded input,
+.btns-rounded select,
+.btns-rounded textarea{
+	border-radius: 3px;
+}
+
+.search-form button.search-submit{
+	padding: 17px;
+}
+
+#search_dropdown{
+	bottom: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+@media (min-width: 600px) {
+	#search_dropdown form{
+		max-width: 500px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.container-fluid{
+		max-width: 1600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.svg-icon svg{
+	max-width: 16px;
+	max-height: 16px;
+}
+
+.small-text{
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+}
+
+.column-aside .widgets-wrap > * + *{
+	margin-top: 5em;
+}
+
+.widget .widget-title,
+.widget .wp-block-group > h2{
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+.widget li{
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+}
+
+.widget li .rssSummary{
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 12px;
+}
+
+a.tag-cloud-link{
+	background-color: var(--colorBackground);
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	border: 0;
+	padding: 1.25em 2em;
+	margin: 0 8px 12px 0;
+}
+
+a.tag-cloud-link:hover{
+	color: var(--colorLight);
+	background-color: var(--colorMain);
+}
+
+.hfeed #layout article{
+	padding-bottom: 4em;
+	border-bottom: 1px solid var(--colorBorder);
+}
+
+.has-post-thumbnail > .item-content{
+	padding-top: 2.5em;
+}
+
+.entry-footer{
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	margin: 0 0 2.25em;
+}
+
+.entry-header + .entry-footer{
+	margin-top: 2.25em;
+}
+
+.entry-footer:last-child{
+	margin-top: 2.75em;
+}
+
+.more-tag{
+	display: block;
+	margin-top: 2em;
+}
+
+@media (min-width: 600px) {
+	.entry-footer-side > span{
+		margin: .5em 0;
+	}
+}
+
+.post-nav-word{
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	margin-bottom: .5em;
+}
+
+.author-meta{
+	border: 1px solid var(--colorBorder);
+	padding: 30px;
+}
+
+.author-meta.side-item > *{
+	-webkit-flex: 3;
+	flex: 3 1;
+}
+
+.author-meta.side-item > *:first-child{
+	-webkit-flex: 1;
+	flex: 1 1;
+}
+
+@media (min-width: 1200px) {
+	.author-meta.side-item > *:first-child{
+		margin-right: 60px;
+	}
+}
+
+.author-meta .author-name{
+	font-size: 1.5em;
+	margin: .5em 0 1em;
+}
+
+.comment-body{
+	padding-bottom: 1em;
+	border-bottom: 1px solid var(--colorBorder);
+}
+
+.comment .reply,
+.comment-metadata,
+.about-author-heading{
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+}
+
+@media (min-width: 1200px) {
+	.related-posts{
+		margin: 6em 0;
+	}
+
+	.author-meta{
+		margin: 5em 0 8em;
+		padding: 60px;
+	}
+
+	.post-nav-item.bg-item{
+		min-height: 250px;
+	}
+}
+
+@media (min-width: 600px) {
+	.comment-author img{
+		width: 80px;
+		height: 80px;
+		left: -100px;
+	}
+
+	.comment-meta,
+	.comment-content{
+		margin-left: 100px;
+	}
+
+	.comment-content{
+		margin-top: 20px;
+	}
+}
+
+.comment-author{
+	font-size: 1.25em;
+	margin-bottom: .75em;
+}
+
+.breadcrumbs{
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+}
+
+.top-menu > li > a{
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+}
+
+#nav_close{
+	display: none;
+}
+
+.active #nav_close{
+	display: block;
+}
+
+@media (min-width: 575px) {
+	.extra-padding,
+	.bordered,
+	.muted,
+	.shadow{
+		padding: 60px;
+	}
+
+	.cols-padding > .wp-block-column{
+		padding: 50px 60px;
+	}
+}
